@@ -4,33 +4,20 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "ECOMMERCE PLATFORM",
-      description: "FULL-STACK REACT/NODE.JS PLATFORM WITH STRIPE INTEGRATION",
-      tech: ["REACT", "NODE.JS", "MONGODB", "STRIPE"],
+      title: "PHISHING SIMULATION FOR EMPLOYEE TRAINING",
+      description: "FULL-STACK PROJECT",
+      tech: ["REACT", "NODE.JS", "MONGODB", "EXPRESS"],
       color: "bg-yellow-400",
       textColor: "text-black"
     },
     {
-      title: "TASK MANAGEMENT APP",
-      description: "REAL-TIME COLLABORATION TOOL WITH WEBSOCKET INTEGRATION",
-      tech: ["REACT", "SOCKET.IO", "EXPRESS", "POSTGRES"],
+      title: "EDUCATIONAL CONSULTANCY WEBSITE",
+      description: "FRONTEND PROJECT",
+      tech: ["REACT", "TAILWIND", "HTML", "CSS"],
       color: "bg-red-500",
       textColor: "text-white"
     },
-    {
-      title: "DESIGN SYSTEM",
-      description: "COMPONENT LIBRARY WITH COMPREHENSIVE DOCUMENTATION",
-      tech: ["REACT", "STORYBOOK", "STYLED-COMPONENTS"],
-      color: "bg-black",
-      textColor: "text-yellow-400"
-    },
-    {
-      title: "API GATEWAY",
-      description: "MICROSERVICES ORCHESTRATION WITH RATE LIMITING",
-      tech: ["NODE.JS", "REDIS", "DOCKER", "AWS"],
-      color: "bg-white",
-      textColor: "text-black"
-    }
+    
   ];
 
   return (

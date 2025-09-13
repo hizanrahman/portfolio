@@ -9,9 +9,10 @@ const Hero = () => {
           {/* Main Content */}
           <div className="lg:col-span-8 bg-black text-white p-8 lg:p-16 border-8 border-black">
             <h1 className="text-4xl md:text-6xl lg:text-8xl font-black leading-none mb-8">
-              CREATIVE
-              <br />
-              <span className="bg-yellow-400 text-black px-2">DEVELOPER</span>
+              HIZAN RAHMAN
+              <br /> <br />
+              
+              <span className="bg-yellow-400 text-black px-2">PENTESTER/DEVELOPER</span>
             </h1>
             <p className="text-xl md:text-2xl font-bold mb-8 max-w-2xl">
               CRAFTING DIGITAL EXPERIENCES THAT BREAK CONVENTIONS AND CHALLENGE EXPECTATIONS
@@ -27,7 +28,7 @@ const Hero = () => {
           {/* Side Element */}
           <div className="lg:col-span-4 bg-yellow-400 border-8 border-black border-l-0 lg:border-l-8 flex flex-col justify-center items-center p-8 min-h-[300px] lg:min-h-full">
             <div className="text-black text-center">
-              <div className="text-6xl font-black mb-4">3+</div>
+              <div className="text-6xl font-black mb-4">1+</div>
               <div className="text-xl font-black">YEARS</div>
               <div className="text-lg font-bold">EXPERIENCE</div>
             </div>
