@@ -1,21 +1,21 @@
-import React from 'react';
+
 import { ExternalLink, Github } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
-    {
-      title: "PHISHING SIMULATION FOR EMPLOYEE TRAINING",
-      description: "FULL-STACK PROJECT",
-      tech: ["REACT", "NODE.JS", "MONGODB", "EXPRESS"],
-      color: "bg-yellow-400",
-      textColor: "text-black"
-    },
     {
       title: "EDUCATIONAL CONSULTANCY WEBSITE",
       description: "FRONTEND PROJECT",
       tech: ["REACT", "TAILWIND", "HTML", "CSS"],
       color: "bg-red-500",
       textColor: "text-white"
+    },
+    {
+      title: "PHISHING SIMULATION FOR EMPLOYEE TRAINING",
+      description: "FULL-STACK PROJECT",
+      tech: ["REACT", "NODE.JS", "MONGODB", "EXPRESS"],
+      color: "bg-yellow-400",
+      textColor: "text-black"
     },
     
   ];

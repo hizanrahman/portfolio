@@ -51,7 +51,7 @@ const Hero = () => {
                 <img 
                   src="/src/assets/hizan-photo.png" 
                   alt="Hizan Rahman" 
-                  className="w-full h-full object-cover rounded-full scale-105 hover:scale-110 transition-transform duration-500"
+                  className="w-full h-full object-contain rounded-full scale-110 hover:scale-110 transition-transform duration-300 translate-y-8"
                 />
               </div>
               {/* Floating particles around photo */}
@@ -75,10 +75,13 @@ const Hero = () => {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="flex justify-center mt-16">
-          <div className="bg-white text-black p-4 animate-bounce border-4 border-white">
+        <div className="flex justify-center mt-8">
+          <a 
+            href="#work" 
+            className="bg-white text-black p-4 animate-bounce border-4 border-white hover:bg-yellow-400 hover:text-black hover:scale-110 transition-all duration-300 transform-gpu cursor-pointer"
+          >
             <ArrowDown size={32} />
-          </div>
+          </a>
         </div>
       </div>
     </section>
