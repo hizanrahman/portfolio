@@ -41,10 +41,10 @@ const Footer = () => {
         
         <div className="border-t-4 border-yellow-400 mt-12 pt-8 text-center">
           <p className="text-xl font-black">
-            © 2024 PORTFOLIO. ALL RIGHTS RESERVED.
+            © 2025 HIZAN RAHMAN. ALL RIGHTS RESERVED.
           </p>
           <p className="font-bold mt-2">
-            DESIGNED & DEVELOPED WITH NEO-BRUTALIST PASSION
+            DESIGNED & DEVELOPED BY HIZAN RAHMAN 
           </p>
         </div>
       </div>
