@@ -1,4 +1,5 @@
 import { ArrowDown } from 'lucide-react';
+import hizanPhoto from '../assets/hizan-photo.png';
 
 const Hero = () => {
   return (
@@ -49,7 +50,7 @@ const Hero = () => {
             <div className="mb-8 animate-fade-in-up delay-500 relative z-10">
               <div className="w-56 h-56 rounded-full overflow-hidden border-4 border-black shadow-lg bg-yellow-400 hover:shadow-2xl transition-all duration-500 hover:scale-105 transform-gpu">
                 <img 
-                  src="/src/assets/hizan-photo.png" 
+                  src={hizanPhoto} 
                   alt="Hizan Rahman" 
                   className="w-full h-full object-contain rounded-full scale-110 hover:scale-110 transition-transform duration-300 translate-y-8"
                 />
