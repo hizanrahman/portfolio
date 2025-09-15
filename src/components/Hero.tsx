@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
 
           {/* Side Element with Photo */}
-          <div className="lg:col-span-4 bg-white flex flex-col justify-center items-center p-8 min-h-[300px] lg:min-h-full relative">
+          <div className="lg:col-span-4 bg-black flex flex-col justify-center items-center p-8 min-h-[300px] lg:min-h-full relative">
             {/* Animated background elements */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
               <div className="absolute top-5 left-5 w-16 h-16 bg-black opacity-5 rounded-full animate-ping"></div>
@@ -48,12 +48,17 @@ const Hero = () => {
             
             {/* Photo Section */}
             <div className="mb-8 animate-fade-in-up delay-500 relative z-10">
-              <div className="w-56 h-56 rounded-full overflow-hidden border-4 border-black shadow-lg bg-yellow-400 hover:shadow-2xl transition-all duration-500 hover:scale-105 transform-gpu">
-                <img 
-                  src={hizanPhoto} 
-                  alt="Hizan Rahman" 
-                  className="w-full h-full object-contain rounded-full scale-110 hover:scale-110 transition-transform duration-300 translate-y-8"
-                />
+              <div className="relative w-56 h-56">
+                <div className="pointer-events-none absolute inset-0 rounded-full p-[1px] bg-gradient-to-r from-transparent via-white to-transparent animate-[spin_4s_linear_infinite]" aria-hidden="true">
+                  <div className="w-full h-full rounded-full bg-black"></div>
+                </div>
+                <div className="absolute inset-[3px] rounded-full overflow-hidden border-4 border-black shadow-lg bg-yellow-400 hover:shadow-2xl transition-all duration-500 hover:scale-105 transform-gpu">
+                  <img 
+                    src={hizanPhoto} 
+                    alt="Hizan Rahman" 
+                    className="w-full h-full object-contain rounded-full scale-110 hover:scale-110 transition-transform duration-300 translate-y-8"
+                  />
+                </div>
               </div>
               {/* Floating particles around photo */}
               <div className="absolute -top-2 -right-2 w-4 h-4 bg-yellow-400 rounded-full animate-bounce delay-1000"></div>
@@ -68,7 +73,7 @@ const Hero = () => {
             </div>
             
             {/* Freelance Badge */}
-            <div className="mt-8 bg-black text-yellow-400 p-4 rotate-3 hover:rotate-6 hover:scale-105 transition-all duration-300 transform-gpu animate-fade-in-up delay-700">
+            <div className="mt-8 bg-white text-black p-4 rounded-xl rotate-3 hover:rotate-6 hover:scale-105 transition-all duration-300 transform-gpu animate-fade-in-up delay-700">
               <div className="text-sm font-black">AVAILABLE FOR</div>
               <div className="text-lg font-black">FREELANCE</div>
             </div>
