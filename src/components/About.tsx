@@ -36,7 +36,7 @@ const About = () => {
                 className="bg-yellow-400 text-black px-6 py-2 mt-2 mb-2 sm:mb-4 text-base sm:text-lg font-black border-4 border-yellow-400 rounded-lg hover:bg-black hover:text-yellow-400 hover:border-black transition-all duration-300 shadow-lg"
                 style={{ display: 'inline-block', wordBreak: 'break-word' }}
               >
-                Community Website link
+                Website link
               </a>
               <p className="font-black text-base sm:text-lg text-center mt-2 leadership-desc font-sans tracking-tight break-words">
                 Leading DroidSec Community to empower security enthusiasts and foster collaboration in cybersecurity.
