@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
 const Header = () => {
@@ -14,10 +14,10 @@ const Header = () => {
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-0">
-            {['ABOUT', 'WORK', 'SKILLS', 'CONTACT'].map((item) => (
+            {['ABOUT', 'WORK', 'SKILLS', 'CONTACT', 'LEADERSHIP'].map((item) => (
               <a
                 key={item}
-                href={`#${item.toLowerCase()}`}
+                href={item === 'LEADERSHIP' ? '#leadership' : `#${item.toLowerCase()}`}
                 className="bg-white text-black px-6 py-2 font-black text-sm border-r-4 border-black last:border-r-0 hover:bg-yellow-400 hover:text-black transition-colors duration-200"
               >
                 {item}
@@ -37,7 +37,7 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <nav className="md:hidden mt-4 border-t-4 border-yellow-400 pt-4">
-            {['ABOUT', 'WORK', 'SKILLS', 'CONTACT'].map((item) => (
+            {['ABOUT', 'WORK', 'SKILLS', 'CONTACT', 'LEADERSHIP'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
