@@ -8,7 +8,9 @@ const Projects = () => {
       description: "FRONTEND PROJECT",
       tech: ["REACT", "TAILWIND", "HTML", "CSS"],
       color: "bg-red-500",
-      textColor: "text-white"
+      textColor: "text-white",
+      github: "https://github.com/hizanrahman/lumora-education-website",
+      website: "https://www.lumoraedu.com"
     },
     {
       title: "PHISHING SIMULATION FOR EMPLOYEE TRAINING",
@@ -40,12 +42,34 @@ const Projects = () => {
                   {project.title}
                 </h3>
                 <div className="flex space-x-2">
-                  <button className={`${project.textColor === 'text-black' ? 'bg-black text-white' : 'bg-white text-black'} p-2 border-2 border-current hover:bg-red-500 hover:text-white hover:scale-110 hover:rotate-12 transition-all duration-300 transform-gpu`}>
-                    <Github size={20} />
-                  </button>
-                  <button className={`${project.textColor === 'text-black' ? 'bg-black text-white' : 'bg-white text-black'} p-2 border-2 border-current hover:bg-red-500 hover:text-white hover:scale-110 hover:rotate-12 transition-all duration-300 transform-gpu`}>
-                    <ExternalLink size={20} />
-                  </button>
+                  {project.github ? (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`${project.textColor === 'text-black' ? 'bg-black text-white' : 'bg-white text-black'} p-2 border-2 border-current hover:bg-red-500 hover:text-white hover:scale-110 hover:rotate-12 transition-all duration-300 transform-gpu`}
+                    >
+                      <Github size={20} />
+                    </a>
+                  ) : (
+                    <button className={`${project.textColor === 'text-black' ? 'bg-black text-white' : 'bg-white text-black'} p-2 border-2 border-current hover:bg-red-500 hover:text-white hover:scale-110 hover:rotate-12 transition-all duration-300 transform-gpu`}>
+                      <Github size={20} />
+                    </button>
+                  )}
+                  {project.website ? (
+                    <a
+                      href={project.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`${project.textColor === 'text-black' ? 'bg-black text-white' : 'bg-white text-black'} p-2 border-2 border-current hover:bg-red-500 hover:text-white hover:scale-110 hover:rotate-12 transition-all duration-300 transform-gpu`}
+                    >
+                      <ExternalLink size={20} />
+                    </a>
+                  ) : (
+                    <button className={`${project.textColor === 'text-black' ? 'bg-black text-white' : 'bg-white text-black'} p-2 border-2 border-current hover:bg-red-500 hover:text-white hover:scale-110 hover:rotate-12 transition-all duration-300 transform-gpu`}>
+                      <ExternalLink size={20} />
+                    </button>
+                  )}
                 </div>
               </div>
               
