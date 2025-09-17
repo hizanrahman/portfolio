@@ -30,7 +30,7 @@ const About = () => {
                 />
               </a>
               <a
-                href="https://droidsec.in"
+                href="https://droidsec.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-yellow-400 text-black px-8 py-3 mt-2 mb-4 text-lg font-black border-4 border-yellow-400 rounded-lg hover:bg-black hover:text-yellow-400 hover:border-black transition-all duration-300 shadow-lg"
