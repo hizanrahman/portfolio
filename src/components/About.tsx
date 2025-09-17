@@ -21,7 +21,7 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-black mb-6 text-center hover:scale-105 transition-transform duration-300 font-sans tracking-tight">
                 Founder at <span className="bg-yellow-400 text-black px-2 rounded">DroidSec Community</span>
               </h2>
-              <a href="https://droidsec.in" target="_blank" rel="noopener noreferrer">
+              <a href="https://droidsec.vercel.app" target="_blank" rel="noopener noreferrer">
                 <img
                   src="https://i.postimg.cc/HxBVJC1z/droidsec-logo.png"
                   alt="DroidSec Logo"
